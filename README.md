@@ -8,5 +8,19 @@ The script can extract tables irrespective of image size.
 
 The result will be contour image and json output with position of each cell.
 
+## Installation
+for environment setup and installation go to [installation_guide](Installation_Guide.md).
+
+## Usage
+Complie and build:
+
+```code
+bazel build //TableExtract:extract-table
+```
+Run:
+```code
+bazel-bin/TableExtract/extract-table [image_path]
+```
+
 
 
